@@ -1,0 +1,29 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+}
+
+ul li a {
+  margin-left: 48.5em;
+}
