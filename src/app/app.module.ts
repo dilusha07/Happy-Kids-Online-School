@@ -10,6 +10,7 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
+import { RegistrationsuccessComponent } from './components/registrationsuccess/registrationsuccess.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './components/login/login.component';
     FooterComponent,
     HeaderComponent,
     RegistrationComponent,
-    LoginComponent
+    LoginComponent,
+    RegistrationsuccessComponent
   ],
   imports: [
     BrowserModule,
