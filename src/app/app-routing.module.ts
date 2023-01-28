@@ -5,6 +5,10 @@ import { WelcomepageComponent } from './components/welcomepage/welcomepage.compo
 import { RegistrationComponent } from './components/registration/registration.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegistrationsuccessComponent } from './components/registrationsuccess/registrationsuccess.component';
+import { AdmindashboardComponent } from './components/admindashboard/admindashboard.component';
+import { AddcourseComponent } from './components/addcourse/addcourse.component';
+import { AddchapterComponent } from './components/addchapter/addchapter.component';
+import { AddprofessorComponent } from './components/addprofessor/addprofessor.component';
 
 const routes: Routes = [
   {path: '', component:WelcomepageComponent},
@@ -12,9 +16,16 @@ const routes: Routes = [
   {path: 'registrationsuccess', component:RegistrationsuccessComponent},
   {path: 'login', component:LoginComponent},
 
+  {path: 'admindashboard', component:AdmindashboardComponent},
+  {path:'addCourse',component:AddcourseComponent},
+  {path:'addchapter',component:AddchapterComponent},
+  {path:'addProfessor',component:AddprofessorComponent},
+
+
 
 const routes: Routes = [
   {path: '', component:WelcomepageComponent},
+
 
 ];
 
