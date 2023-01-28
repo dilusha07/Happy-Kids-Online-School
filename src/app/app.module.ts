@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomepageComponent } from './components/welcomepage/welcomepage.component';
 import { FooterComponent } from './components/footer/footer.component';
+
 import { HeaderComponent } from './components/header/header.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -25,10 +26,12 @@ import { UserlistComponent } from './components/userlist/userlist.component';
   declarations: [
     AppComponent,
     WelcomepageComponent,
+
     FooterComponent,
     HeaderComponent,
     RegistrationComponent,
     LoginComponent,
+
     RegistrationsuccessComponent,
     AdmindashboardComponent,
     AddcourseComponent,
@@ -39,6 +42,12 @@ import { UserlistComponent } from './components/userlist/userlist.component';
     MywishlistComponent,
     ProfessorlistComponent,
     UserlistComponent
+
+    RegistrationsuccessComponent
+
+    FooterComponent
+
+
   ],
   imports: [
     BrowserModule,
