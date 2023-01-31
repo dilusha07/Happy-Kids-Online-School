@@ -8,6 +8,7 @@ import { AdmindashboardComponent } from './components/admindashboard/admindashbo
 import { AddcourseComponent } from './components/addcourse/addcourse.component';
 import { AddchapterComponent } from './components/addchapter/addchapter.component';
 import { AddprofessorComponent } from './components/addprofessor/addprofessor.component';
+import { ApprovalstatusComponent } from './components/approvalstatus/approvalstatus.component';
 
 const routes: Routes = [
   {path: '', component:WelcomepageComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'addCourse',component:AddcourseComponent},
   {path:'addchapter',component:AddchapterComponent},
   {path:'addProfessor',component:AddprofessorComponent},
+  {path:'approveprofessor',component:ApprovalstatusComponent},
 ];
 
 @NgModule({
