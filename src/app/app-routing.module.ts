@@ -9,6 +9,8 @@ import { AddcourseComponent } from './components/addcourse/addcourse.component';
 import { AddchapterComponent } from './components/addchapter/addchapter.component';
 import { AddprofessorComponent } from './components/addprofessor/addprofessor.component';
 import { ApprovalstatusComponent } from './components/approvalstatus/approvalstatus.component';
+import { CourselistComponent } from './components/courselist/courselist.component';
+import { ProfessorlistComponent } from './components/professorlist/professorlist.component';
 
 const routes: Routes = [
   {path: '', component:WelcomepageComponent},
@@ -20,6 +22,8 @@ const routes: Routes = [
   {path:'addchapter',component:AddchapterComponent},
   {path:'addProfessor',component:AddprofessorComponent},
   {path:'approveprofessor',component:ApprovalstatusComponent},
+  {path:'courselist',component:CourselistComponent},
+  {path:'professorlist',component:ProfessorlistComponent},
 ];
 
 @NgModule({

@@ -20,6 +20,8 @@ import { CourselistComponent } from './components/courselist/courselist.componen
 import { MywishlistComponent } from './components/mywishlist/mywishlist.component';
 import { ProfessorlistComponent } from './components/professorlist/professorlist.component';
 import { UserlistComponent } from './components/userlist/userlist.component';
+//import { CarouselModule } from 'ngx-owl-carousel-o';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { UserlistComponent } from './components/userlist/userlist.component';
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    //CarouselModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
