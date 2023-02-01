@@ -11,6 +11,8 @@ import { AddprofessorComponent } from './components/addprofessor/addprofessor.co
 import { ApprovalstatusComponent } from './components/approvalstatus/approvalstatus.component';
 import { CourselistComponent } from './components/courselist/courselist.component';
 import { ProfessorlistComponent } from './components/professorlist/professorlist.component';
+import { UserlistComponent } from './components/userlist/userlist.component';
+import { MywishlistComponent } from './components/mywishlist/mywishlist.component';
 
 const routes: Routes = [
   {path: '', component:WelcomepageComponent},
@@ -24,6 +26,8 @@ const routes: Routes = [
   {path:'approveprofessor',component:ApprovalstatusComponent},
   {path:'courselist',component:CourselistComponent},
   {path:'professorlist',component:ProfessorlistComponent},
+  {path:'userlist',component:UserlistComponent},
+  {path:'mywishlist',component:MywishlistComponent},
 ];
 
 @NgModule({
