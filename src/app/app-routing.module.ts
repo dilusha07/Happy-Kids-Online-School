@@ -4,6 +4,8 @@ import { CoolfactsComponent } from './components/coolfacts/coolfacts.component';
 import { GradepageComponent } from './components/gradepage/gradepage.component';
 import { LessonsComponent } from './components/lessons/lessons.component';
 import { SubjectpageComponent } from './components/subjectpage/subjectpage.component';
+import { UserdashboardComponent } from './components/userdashboard/userdashboard.component';
+import { UserprofileComponent } from './components/userprofile/userprofile.component';
 import { WelcomepageComponent } from './components/welcomepage/welcomepage.component';
 
 const routes: Routes = [
@@ -11,7 +13,10 @@ const routes: Routes = [
   { path: 'grade', component: GradepageComponent },
   { path: 'subject', component: SubjectpageComponent },
   { path: 'drawing', component: LessonsComponent },
-  {path: 'coolfacts', component:CoolfactsComponent},
+  { path: 'coolfacts', component: CoolfactsComponent },
+  { path: 'userdashboard', component: UserdashboardComponent },
+   {path:'edituserprofile',component:UserprofileComponent},
+  
 ];
 
 @NgModule({
