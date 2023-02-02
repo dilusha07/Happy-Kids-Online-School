@@ -5,6 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomepageComponent } from './components/welcomepage/welcomepage.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { GradepageComponent } from './components/gradepage/gradepage.component';
+import { CoolfactsComponent } from './components/coolfacts/coolfacts.component';
+import { SubjectpageComponent } from './components/subjectpage/subjectpage.component';
+import { LessonsComponent } from './components/lessons/lessons.component';
+import { UserdashboardComponent } from './components/userdashboard/userdashboard.component';
+import { UserprofileComponent } from './components/userprofile/userprofile.component';
 
 import { HeaderComponent } from './components/header/header.component';
 import { RegistrationComponent } from './components/registration/registration.component';
@@ -28,6 +34,15 @@ import { UserlistComponent } from './components/userlist/userlist.component';
     WelcomepageComponent,
 
     FooterComponent,
+    GradepageComponent,
+    CoolfactsComponent,
+    SubjectpageComponent,
+    LessonsComponent,
+    UserdashboardComponent,
+    UserprofileComponent
+
+
+    FooterComponent,
     HeaderComponent,
     RegistrationComponent,
     LoginComponent,
@@ -46,6 +61,7 @@ import { UserlistComponent } from './components/userlist/userlist.component';
     RegistrationsuccessComponent
 
     FooterComponent
+
 
 
   ],

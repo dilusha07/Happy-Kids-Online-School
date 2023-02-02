@@ -1,0 +1,140 @@
+.header {
+    background-color: #851313;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding: 0 80px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 1px 1px 20% 20%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-top: 15px;
+    padding-top: 20px;
+}
+
+.nav label {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Skranji', cursive;
+}
+
+.nav label:hover {
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover {
+    opacity: 0.9;
+    background: linear-gradient(to bottom, #00ccff 0%, #3399ff 100%);
+}
+
+#log {
+    color: #fff;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 15px;
+    outline: none;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+
+#log:hover {
+    padding: 6px 15px;
+    background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transform: scale(1.0) perspective(5px);
+}
+
+#log:active {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+#create_acc {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+
+#create_acc:hover {
+    padding: 6px 15px;
+    background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transform: scale(1.0) perspective(5px);
+}
+
+#create_acc:active {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+#active {
+    margin-right: 10px;
+    background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#active:hover {
+    background: linear-gradient(to top, #ff9933 0%, #ff6600 100%);
+    transform: scale(1.0) perspective(5px);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.middle {
+    padding-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 18px #888888;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 8px;
+    height: 300px;
+    margin-top: 20px;
+}

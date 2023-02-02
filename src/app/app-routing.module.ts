@@ -1,5 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CoolfactsComponent } from './components/coolfacts/coolfacts.component';
+import { GradepageComponent } from './components/gradepage/gradepage.component';
+import { LessonsComponent } from './components/lessons/lessons.component';
+import { SubjectpageComponent } from './components/subjectpage/subjectpage.component';
+import { UserdashboardComponent } from './components/userdashboard/userdashboard.component';
+import { UserprofileComponent } from './components/userprofile/userprofile.component';
 import { WelcomepageComponent } from './components/welcomepage/welcomepage.component';
 
 import { RegistrationComponent } from './components/registration/registration.component';
@@ -11,6 +17,16 @@ import { AddchapterComponent } from './components/addchapter/addchapter.componen
 import { AddprofessorComponent } from './components/addprofessor/addprofessor.component';
 
 const routes: Routes = [
+
+  { path: '', component: WelcomepageComponent },
+  { path: 'grade', component: GradepageComponent },
+  { path: 'subject', component: SubjectpageComponent },
+  { path: 'drawing', component: LessonsComponent },
+  { path: 'coolfacts', component: CoolfactsComponent },
+  { path: 'userdashboard', component: UserdashboardComponent },
+   {path:'edituserprofile',component:UserprofileComponent},
+  
+
   {path: '', component:WelcomepageComponent},
   {path: 'registration', component:RegistrationComponent},
   {path: 'registrationsuccess', component:RegistrationsuccessComponent},
@@ -25,6 +41,7 @@ const routes: Routes = [
 
 const routes: Routes = [
   {path: '', component:WelcomepageComponent},
+
 
 
 ];

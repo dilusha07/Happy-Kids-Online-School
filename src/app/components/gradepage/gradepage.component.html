@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="content">
+        <div class="header" id="header">
+            <div class="nav">
+                <label></label>
+                <div class="switchs">
+                    <button style="font-weight: bold;" class="log" id="log" [routerLink]="['']"><i
+                            class="fa fa-home"></i>
+                        Home</button>
+                    <button style="font-weight: bold;" class="log" id="log" onclick="location.href='#services';"><i
+                            class="fa fa-cog"></i> Services</button>
+                    <button style="font-weight: bold;" class="log" id="log" [routerLink]="['/login']"><i
+                            class="fa fa-sign-in"></i>
+                        LOGIN</button>
+                    <button style="font-weight: bold;" class="create_acc" id="create_acc"
+                        [routerLink]="['/registration']"><i class="fa fa-user-plus"></i> CREATE ACCOUNT</button>
+                </div>
+            </div>
+            <div class="text">
+                <!-- <h1 data-text = "Select Your Grade To Begin Learning" style="margin-left: -10%; font-family: Verdana;">Select Your Grade To Begin Learning</h1><br> -->
+                <img class="floating" id="img3" [src]="'assets/img/bg.png'">
+                <h1 data-text="Select Your Grade To Begin Learning" style="margin-left: -10%; font-family: Verdana;">
+                    Select Your Grade
+                    To Begin Learning</h1><br>
+            </div><br><br>
+            <!-- <div class="main">
+          <div class="row">
+            <div class="btn"><a href="#">1</a></div>
+            <div class="btn"><a href="#">2</a></div>
+            <div class="btn"><a href="#">3</a></div>
+            <div class="btn"><a href="#">4</a></div>
+            <div class="btn"><a href="#">5</a></div>
+          </div>
+        </div> -->
+
+        </div>
+        <br>
+
+        <div class="main">
+            <div class="row">
+                <div class="btn" [routerLink]="['/subject']"><a>Grade <br>1</a></div>
+                <div class="btn"><a href="#">Grade <br>2</a></div>
+                <div class="btn"><a href="#">Grade <br>3</a></div>
+                <div class="btn"><a href="#">Grade <br>4</a></div>
+                <div class="btn"><a href="#">Grade <br>5</a></div>
+            </div>
+        </div>
+        <br>
+        <marquee class="marquee" direction="left">🔔 Stay Home !!! Stay Safe !!! Lets Fight together against COVID-19.
+            The Happy Kids Online School is designed by Bugbasters. If Already our Customer, please Login to see your
+            Current Learning Status 😀 </marquee>
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 style="font-family: aladin; color: rgb(3, 34, 34);">Cool Facts For Kids</h2>
+                </div>
+                <div class="mid_body2">
+                    <div class="details">
+                        <div class="detail_1" style="background-color: rgb(19, 104, 97); margin-right: 5%;">
+                            <div class="circle" style="border-radius: 50%; padding: 10%;">
+                                <img [src]="'assets/img/mind.gif'" width="130" height="130" [routerLink]="['/coolfacts']">
+                            </div>
+                            <h2
+                                style="font-weight: bolder; font-size: 15px;font-family: monospace; margin-top: 5%; color: white;">
+                                Funny Mind Blowing Facts
+                            </h2>
+                        </div>
+                        <div class="detail_2" style="background-color: rgb(19, 104, 97); margin-right: 5%;">
+                            <div class="circle" style="border-radius: 50%; padding: 10%;">
+                                <img [src]="'assets/img/festival.gif'" width="130" height="130" [routerLink]="['/coolfacts']" >
+                            </div>
+                            <h2
+                                style="font-weight: bolder; font-size: 15px;font-family: monospace; margin-top: 5%; color: white;">
+                                Famous Festivals Interesting Facts</h2>
+                        </div>
+                        <div class="detail_3" style="background-color: rgb(19, 104, 97); margin-right: 5%;">
+                            <div class="circle" style="border-radius: 50%; padding: 10%;">
+                                <img [src]="'assets/img/world.gif'" width="130" height="130">
+                            </div>
+                            <h2
+                                style="font-weight: bolder; font-size: 15px;font-family: monospace; margin-top: 5%; color: white;">
+                                Enviromental Facts
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
+<app-footer></app-footer>
+
