@@ -9,6 +9,9 @@ import { GradepageComponent } from './components/gradepage/gradepage.component';
 import { CoolfactsComponent } from './components/coolfacts/coolfacts.component';
 import { SubjectpageComponent } from './components/subjectpage/subjectpage.component';
 import { LessonsComponent } from './components/lessons/lessons.component';
+import { TeacherdashboardComponent } from './components/teacherdashboard/teacherdashboard.component';
+import { ProfessordashboardComponent } from './components/professordashboard/professordashboard.component';
+import { ProfessorprofileComponent } from './components/professorprofile/professorprofile.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { LessonsComponent } from './components/lessons/lessons.component';
     GradepageComponent,
     CoolfactsComponent,
     SubjectpageComponent,
-    LessonsComponent
+    LessonsComponent,
+    TeacherdashboardComponent,
+    ProfessordashboardComponent,
+    ProfessorprofileComponent
   ],
   imports: [
     BrowserModule,
