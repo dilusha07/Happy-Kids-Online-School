@@ -10,8 +10,12 @@ export class WelcomepageComponent implements OnInit {
 
   constructor(private _router : Router) { }
 
+
+  ngOnInit(): void {}
+
   ngOnInit(): void {
   }
+
 
   navigate()
   {
