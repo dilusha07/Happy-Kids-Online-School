@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { CoolfactsComponent } from './components/coolfacts/coolfacts.component';
 import { GradepageComponent } from './components/gradepage/gradepage.component';
 import { LessonsComponent } from './components/lessons/lessons.component';
+import { ProfessordashboardComponent } from './components/professordashboard/professordashboard.component';
 import { SubjectpageComponent } from './components/subjectpage/subjectpage.component';
 import { UserdashboardComponent } from './components/userdashboard/userdashboard.component';
 import { UserprofileComponent } from './components/userprofile/userprofile.component';
 import { WelcomepageComponent } from './components/welcomepage/welcomepage.component';
+import { ProfessorprofileComponent } from './components/professorprofile/professorprofile.component';
 
 import { RegistrationComponent } from './components/registration/registration.component';
 import { LoginComponent } from './components/login/login.component';
@@ -22,6 +24,10 @@ const routes: Routes = [
   { path: 'grade', component: GradepageComponent },
   { path: 'subject', component: SubjectpageComponent },
   { path: 'drawing', component: LessonsComponent },
+  {path: 'coolfacts', component:CoolfactsComponent},
+  {path:'professordashboard',component:ProfessordashboardComponent},
+  {path:'editprofessorprofile',component:ProfessorprofileComponent},
+
   { path: 'coolfacts', component: CoolfactsComponent },
   { path: 'userdashboard', component: UserdashboardComponent },
    {path:'edituserprofile',component:UserprofileComponent},

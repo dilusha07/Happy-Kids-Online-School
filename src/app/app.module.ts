@@ -9,6 +9,11 @@ import { GradepageComponent } from './components/gradepage/gradepage.component';
 import { CoolfactsComponent } from './components/coolfacts/coolfacts.component';
 import { SubjectpageComponent } from './components/subjectpage/subjectpage.component';
 import { LessonsComponent } from './components/lessons/lessons.component';
+
+import { TeacherdashboardComponent } from './components/teacherdashboard/teacherdashboard.component';
+import { ProfessordashboardComponent } from './components/professordashboard/professordashboard.component';
+import { ProfessorprofileComponent } from './components/professorprofile/professorprofile.component';
+
 import { UserdashboardComponent } from './components/userdashboard/userdashboard.component';
 import { UserprofileComponent } from './components/userprofile/userprofile.component';
 
@@ -28,6 +33,7 @@ import { MywishlistComponent } from './components/mywishlist/mywishlist.componen
 import { ProfessorlistComponent } from './components/professorlist/professorlist.component';
 import { UserlistComponent } from './components/userlist/userlist.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +44,11 @@ import { UserlistComponent } from './components/userlist/userlist.component';
     CoolfactsComponent,
     SubjectpageComponent,
     LessonsComponent,
+
+    TeacherdashboardComponent,
+    ProfessordashboardComponent,
+    ProfessorprofileComponent
+
     UserdashboardComponent,
     UserprofileComponent
 
@@ -61,6 +72,7 @@ import { UserlistComponent } from './components/userlist/userlist.component';
     RegistrationsuccessComponent
 
     FooterComponent
+
 
 
 
