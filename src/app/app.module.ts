@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomepageComponent } from './components/welcomepage/welcomepage.component';
 import { FooterComponent } from './components/footer/footer.component';
+
 import { HeaderComponent } from './components/header/header.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -22,6 +23,8 @@ import { ProfessorlistComponent } from './components/professorlist/professorlist
 import { UserlistComponent } from './components/userlist/userlist.component';
 //import { CarouselModule } from 'ngx-owl-carousel-o';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { MycoursesComponent } from './components/mycourses/mycourses.component';
+import { FullcourseComponent } from './components/fullcourse/fullcourse.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,14 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     CourselistComponent,
     MywishlistComponent,
     ProfessorlistComponent,
-    UserlistComponent
+    UserlistComponent,
+    MycoursesComponent,
+    FullcourseComponent
+
+  
+
+   
+
   ],
   imports: [
     BrowserModule,
